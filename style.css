@@ -21,7 +21,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0% 20%;
-  min-height: 10vh;
+  min-height: 8vh;
   background-color: rgba(255, 255, 255, 0.6); 
   backdrop-filter: blur(10px);
   z-index: 10;
@@ -79,5 +79,31 @@ cursor: pointer;
 
 .intro-video {
   position: absolute;
+  width: 100%;
 }
 
+/* Second page */
+.second-page {
+  min-height: 125vh;
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.smoke-video {
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+  object-fit: cover;
+  z-index: 1;
+  justify-content: center;
+}
+
+.second-text {
+  padding: 5% 30%;
+  position: relative;
+  font-size: 3.5rem;
+  font-weight: bold;
+  z-index: 2;
+}
