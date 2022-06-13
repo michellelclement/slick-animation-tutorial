@@ -42,6 +42,16 @@ margin-left: 2rem;
   font-weight: bold;
 }
 
+.buy-button {
+  padding: 0.2rem 2rem;
+  font-size: 0.6rem;
+background: #3056f5;
+color: white;
+border: none;
+border-radius: 1rem;
+cursor: pointer;
+}
+
 /* First Page */
 .first-page {
   min-height: 100vh;
