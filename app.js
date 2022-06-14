@@ -1,3 +1,14 @@
+// Pin the first page so second scrolls over
+const tlIntro = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".first-page",
+    start: "0%",
+    end: "100%",
+    pin: true,
+    pinSpacing: false
+  }
+});
+
 //Highlight page 2
 const tlH = gsap.timeline({
   scrollTrigger: {
