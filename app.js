@@ -125,3 +125,18 @@ tlVideo.fromTo(
   { opacity: 1, stagger: 0.25 },
   "<"
 );
+
+//Sixth Page Paralux
+const tlParallax = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".sixth-page",
+    start: "-25%",
+    end: "50%",
+    scrub: true,
+    markers: { startColor: "green", endColor: "green" }
+  }
+});
+
+tlParallax.fromTo(".photo-description", { y: -20 }, { y: -120 });
+tlParallax.fromTo(".portrait-container", { y: 0 }, { y: -80 }, "<");
+tlParallax.fromTo(".phone-video", { y: 100 }, { y: -200 }, "<");
